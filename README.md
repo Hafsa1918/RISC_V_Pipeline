@@ -7,7 +7,9 @@ This repository implements pipelined RISC-V 32I architecture using Veriolog HDL.
 The instructions used are in a text file - instmem.txt under Design_Files folder. It holds the machine code of the instructions.
 
 
-main:   addi x2,x0,5 
+
+main:   
+        addi x2,x0,5 
 
         addi x3,x0,12
         
@@ -27,7 +29,9 @@ main:   addi x2,x0,5
         
         addi x5,x0,0
 
-around: slt x4,x7,x2
+around: 
+        
+        slt x4,x7,x2
  		    
         add x7,x4,x5
         
@@ -43,11 +47,14 @@ around: slt x4,x7,x2
         
         addi x2,x0,1
 
-end:    add x2,x2,x9
+end:    
+        add x2,x2,x9
         
         sw x2,0x20(x3)
 
-done:   beq x2,x2,done
+done:   
+        
+        beq x2,x2,done
 
 
 ![image](https://github.com/Hafsa1918/RISC_V_Pipeline/assets/70684075/edebec44-d662-48c9-85ff-9b176f0411a2)
@@ -58,6 +65,12 @@ done:   beq x2,x2,done
 
 # Simulation Results
 
+
+
+# Structure
+
+Design_Files - holds all the design modules
+TestBench - contains the testbench of complete RISC-V processor
 
 
 
