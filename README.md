@@ -6,7 +6,6 @@ This repository implements pipelined RISC-V 32I architecture using Veriolog HDL.
 
 The instructions used are in a text file - instmem.txt under Design_Files folder. It holds the machine code of the instructions.
 
-
 main :  addi x2,x0,5 
 
         addi x3,x0,12
@@ -94,6 +93,8 @@ Memory and Write back stage
 At the end of the instructions execution, 19 in Hexadecimal is stored at memory location 64 in Headecimal
 ![last](https://github.com/Hafsa1918/RISC_V_Pipeline/assets/70684075/84b7e5e8-b617-4ebc-809e-9078e39dfb44)
 
+Compilation results
+![a](https://github.com/Hafsa1918/RISC_V_Pipeline/assets/70684075/095fdf5e-e888-4fe1-826f-5b87e9f670bf)
 
 # Structure
 
