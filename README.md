@@ -93,6 +93,8 @@ Memory and Write back stage
 At the end of the instructions execution, 19 in Hexadecimal is stored at memory location 64 in Headecimal
 ![last](https://github.com/Hafsa1918/RISC_V_Pipeline/assets/70684075/84b7e5e8-b617-4ebc-809e-9078e39dfb44)
 
+![m](https://github.com/Hafsa1918/RISC_V_Pipeline/assets/70684075/3bd08eaf-b5e2-4546-a81e-562ecf4e7d1b)
+
 Compilation results
 ![a](https://github.com/Hafsa1918/RISC_V_Pipeline/assets/70684075/095fdf5e-e888-4fe1-826f-5b87e9f670bf)
 
